@@ -2,52 +2,46 @@
 
 race-conditions-portswigger-guide/
 
-This repository contains a full structured breakdown of Race Condition vulnerabilities from PortSwigger Web Security Academy.
+This repository contains a structured and practical breakdown of Race Condition vulnerabilities from PortSwigger Web Security Academy.
 
-It includes:
-- Concepts
-- Exploitation techniques
-- Methodologies (Predict → Probe → Prove)
-- Real-world attack patterns
-- Prevention strategies
+It focuses on real-world exploitation patterns, methodology, and defensive strategies used in web security testing and bug bounty research.
 
 ---
 
-## Repository Structure
-race-conditions-portswigger-guide/
-│
-├── README.md
-├── 01-introduction.md
-├── 02-limit-overrun-race-conditions.md
-├── 03-multi-endpoint-race-conditions.md
-├── 04-aligning-race-windows.md
-├── 05-connection-warming.md
-├── 06-abusing-rate-limits.md
-├── 07-single-endpoint-race-conditions.md
-├── 08-partial-construction-races.md
-├── 09-time-sensitive-attacks.md
-├── 10-session-locking.md
-├── 11-prevention.md
-└── examples.md
 
----
-##  Topics Covered
-
-- Limit Overrun Race Conditions
-- Multi-endpoint Race Conditions
-- Single-endpoint Race Conditions
-- Hidden Multi-step Sequences
-- Partial Construction Attacks
-- Time-sensitive Attacks
-- Session-based Locking
-- Connection Warming
-- Aligning Race Windows
-- Abusing Rate Limits
-- Prevention Strategies
+##  Core Concepts
+-  [Introduction](01-introduction.md)
+-  [Limit Overrun Race Conditions](02-limit-overrun-race-conditions.md)
+-  [Multi-endpoint Race Conditions](03-multi-endpoint-race-conditions.md)
+-  [Aligning Race Windows](04-aligning-race-windows.md)
 
 ---
 
-##  Methodology
+##  Exploitation Techniques
+-  [Connection Warming](05-connection-warming.md)
+-  [Abusing Rate Limits](06-abusing-rate-limits.md)
+-  [Single-endpoint Race Conditions](07-single-endpoint-race-conditions.md)
+-  [Partial Construction Races](08-partial-construction-races.md)
+
+---
+
+##  Advanced Topics
+-  [Time-sensitive Attacks](09-time-sensitive-attacks.md)
+-  [Session Locking Mechanisms](10-session-locking.md)
+
+---
+
+##  Defense & Prevention
+- [Prevention Strategies](11-prevention.md)
+
+---
+
+##  Practice & Methodology
+-  [Examples & Attack Methodology](examples.md)
+
+---
+
+## Methodology
 
 1. Predict potential collision  
 2. Probe for clues  
@@ -55,16 +49,15 @@ race-conditions-portswigger-guide/
 
 ---
 
-##  Goal
+## Learning Goals
 
-Understand how to:
-- Detect race conditions
-- Exploit timing vulnerabilities
+- Detect race condition vulnerabilities
+- Exploit timing-based security flaws
 - Bypass application state logic
-- Identify sub-state transitions
+- Understand hidden sub-state transitions
 
 ---
 
 ## ⚠️ Disclaimer
 
-This content is for educational and ethical security research only.
+This repository is intended for educational and ethical security research only.
