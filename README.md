@@ -13,6 +13,24 @@ It includes:
 
 ---
 
+## Repository Structure
+race-conditions-portswigger-guide/
+│
+├── README.md
+├── 01-introduction.md
+├── 02-limit-overrun-race-conditions.md
+├── 03-multi-endpoint-race-conditions.md
+├── 04-aligning-race-windows.md
+├── 05-connection-warming.md
+├── 06-abusing-rate-limits.md
+├── 07-single-endpoint-race-conditions.md
+├── 08-partial-construction-races.md
+├── 09-time-sensitive-attacks.md
+├── 10-session-locking.md
+├── 11-prevention.md
+└── examples.md
+
+---
 ##  Topics Covered
 
 - Limit Overrun Race Conditions
