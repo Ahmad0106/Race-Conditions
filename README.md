@@ -1,5 +1,19 @@
 #  Race Conditions - PortSwigger Complete Guide
 
+race-conditions-portswigger-guide/
+├── 01-introduction.md
+├── 02-limit-overrun-race-conditions.md
+├── 03-multi-endpoint-race-conditions.md
+├── 04-aligning-race-windows.md
+├── 05-connection-warming.md
+├── 06-abusing-rate-limits.md
+├── 07-single-endpoint-race-conditions.md
+├── 08-partial-construction-races.md
+├── 09-time-sensitive-attacks.md
+├── 10-session-locking.md
+├── 11-prevention.md
+└── examples.md
+
 This repository contains a full structured breakdown of Race Condition vulnerabilities from PortSwigger Web Security Academy.
 
 It includes:
