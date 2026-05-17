@@ -1,2 +1,50 @@
-# Race-Conditions
-race-conditions-guide
+#  Race Conditions - PortSwigger Complete Guide
+
+This repository contains a full structured breakdown of Race Condition vulnerabilities from PortSwigger Web Security Academy.
+
+It includes:
+- Concepts
+- Exploitation techniques
+- Methodologies (Predict → Probe → Prove)
+- Real-world attack patterns
+- Prevention strategies
+
+---
+
+##  Topics Covered
+
+- Limit Overrun Race Conditions
+- Multi-endpoint Race Conditions
+- Single-endpoint Race Conditions
+- Hidden Multi-step Sequences
+- Partial Construction Attacks
+- Time-sensitive Attacks
+- Session-based Locking
+- Connection Warming
+- Aligning Race Windows
+- Abusing Rate Limits
+- Prevention Strategies
+
+---
+
+##  Methodology
+
+1. Predict potential collision  
+2. Probe for clues  
+3. Prove the concept  
+
+---
+
+##  Goal
+
+Understand how to:
+- Detect race conditions
+- Exploit timing vulnerabilities
+- Bypass application state logic
+- Identify sub-state transitions
+
+---
+
+## ⚠️ Disclaimer
+
+This content is for educational and ethical security research only.
