@@ -1,6 +1,5 @@
 #  Race Conditions - PortSwigger Complete Guide
 
-race-conditions-portswigger-guide/
 
 This repository contains a structured and practical breakdown of Race Condition vulnerabilities from PortSwigger Web Security Academy.
 
